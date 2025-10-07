@@ -22,8 +22,8 @@ def extract_weather(lat, lon, hourly_params, daily_params):
         "hourly": hourly_params,
         "daily": daily_params,
         "timezone": "auto",
-        "past_hours": 4,
-        "forecast_hours": 20,
+        "past_hours": 5,
+        "forecast_hours": 12,
         "forecast_days": 1
     }
 
@@ -57,7 +57,7 @@ def extract_weather(lat, lon, hourly_params, daily_params):
         )
     }
     for i, var_name in enumerate(daily_params):
-        daily_data[var_name] = daily.Variables(i).ValuesAsNumpy()
+        daily_data[var_name] = daily.Variables(i).ValuesInt64AsNumpy()
 
     daily_df = pd.DataFrame(daily_data)
 
