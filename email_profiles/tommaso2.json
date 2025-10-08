@@ -1,0 +1,14 @@
+{
+    "scheduler name": "tommaso2",
+    "status": "active",
+    "city name": "Milan",
+    "coordinates": {
+        "latitude": 45.4685,
+        "longitude": 9.1824
+    },
+    "subject": "prova",
+    "email": "tommasogallo2023@gmail.com",
+    "text": "prova finale per crontab",
+    "time": "22:17",
+    "timezone": "Europe/Rome"
+}
