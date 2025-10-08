@@ -1,4 +1,5 @@
 {
+    "scheduler name": "Tommaso1",
     "status": "active",
     "city name": "Oxford",
     "coordinates": {
@@ -8,5 +9,6 @@
     "subject": "Weather report",
     "email": "tommasogallo2023@gmail.com",
     "text": "Dear Tommaso, \n hopefully this is working",
-    "time": "16:10"
+    "time": "15:50",
+    "timezone": "Europe/London"
 }

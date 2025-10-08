@@ -1,4 +1,5 @@
 {
+    "scheduler name": "tommaso2",
     "status": "active",
     "city name": "Milan",
     "coordinates": {
@@ -8,5 +9,6 @@
     "subject": "Last Weather report",
     "email": "tommasogallo2023@gmail.com",
     "text": "sosoasoiv",
-    "time": "08:00"
+    "time": "08:00",
+    "timezone": "Europe/Rome"
 }

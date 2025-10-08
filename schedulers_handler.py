@@ -1,6 +1,8 @@
 import json
 import os
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
 
 def load_active_schedulers(directory: str):
     """
@@ -33,28 +35,41 @@ def load_active_schedulers(directory: str):
 
     return schedulers
 
+
 def get_imminent_schedulers(schedulers, CHECK_INTERVAL_MINUTES):
     imminent_schedulers = []
-    now = datetime.now()
-    soon = now + timedelta(minutes=CHECK_INTERVAL_MINUTES)
+    now_utc = datetime.now().astimezone(ZoneInfo("UTC"))
+    soon_utc = now_utc + timedelta(minutes=CHECK_INTERVAL_MINUTES)
 
     for scheduler in schedulers:
         send_time_str = scheduler["time"]  # e.g., "14:30"
+        scheduler_timezone = scheduler.get("timezone", "UTC")
+
         if send_time_str:
             try:
                 hour, minute = map(int, send_time_str.split(":"))
-                send_datetime = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
 
-                # If send time has already passed today, skip
-                if send_datetime < now:
+                # Create a datetime today in the scheduler's timezone
+                tz = ZoneInfo(scheduler_timezone)
+                now_local = now_utc.astimezone(tz)
+                send_datetime_local = now_local.replace(hour=hour, minute=minute, second=0, microsecond=0)
+
+                # Convert to UTC for comparison
+                send_datetime_utc = send_datetime_local.astimezone(ZoneInfo("UTC"))
+
+                # Skip if the send time has already passed
+                if send_datetime_utc < now_utc:
                     continue
 
-                if now <= send_datetime <= soon:
+                # Add to imminent schedulers if within the check interval
+                if now_utc <= send_datetime_utc <= soon_utc:
                     imminent_schedulers.append(scheduler)
+
             except ValueError:
-                print(f"Invalid time format in {scheduler["scheduler name"]}: {send_time_str}")
+                print(f"Invalid time format in {scheduler['scheduler name']}: {send_time_str}")
 
     return imminent_schedulers
+
 
 def create_email_profile():
     print("\n=== Create a new email profile ===")
@@ -68,6 +83,7 @@ def create_email_profile():
     # Ask for all the relevant info
     status = str(input("Status (active/inactive): ").strip().lower())
     time = str(input("Send time (HH:MM, 24-hour format): ").strip())
+    timezone = str(input("Enter the timezone (e.g. Europe/Rome, America/New_York): "))
     city_name = str(input("City name: ").strip())
     city_lat = float(input("City latitude: ").strip())
     city_lon = float(input("City longitude: ").strip())
@@ -87,7 +103,8 @@ def create_email_profile():
         "subject": subject,
         "email": email,
         "text": text,
-        "time": time
+        "time": time,
+        "timezone": timezone
     }
 
     # Ensure directory exists
