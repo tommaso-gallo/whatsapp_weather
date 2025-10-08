@@ -32,7 +32,6 @@ python-dateutil==2.9.0.post0
 pytweening==1.2.0
 pytz==2025.2
 pywhatkit==5.4
-pywin32==311
 qh3==1.5.5
 requests==2.32.5
 requests-cache==1.2.1

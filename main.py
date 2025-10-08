@@ -2,7 +2,7 @@ from extract_weather_info import extract_weather
 from create_image import assemble_image
 import pywhatkit as kit
 from datetime import datetime
-
+import pyautogui as pg
 
 dresden_coordinates = [(51.0509, 13.7383)]
 rome_coordinates = [(41.8919, 12.5113)]
@@ -22,7 +22,8 @@ for lat, lon in coordinates:
     now = datetime.now()
     hour = now.hour
     minute = now.minute
-    kit.sendwhatmsg("+393314869493", "Hello from Python!", hour, minute+2)
+    kit.sendwhatmsg("+393314869493", "Hello from Python!", hour, minute+2, 90)
+    pg.press("enter")
     kit.sendwhats_image("+393314869493", f"weather_info.jpg")
 
 
