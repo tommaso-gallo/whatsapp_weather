@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
+import os
 
 width, height = 900, 1600
 #background_color = "white"
@@ -7,11 +8,13 @@ background_color = (235, 242, 255)
 title_color = (20, 10, 10)
 subtitle_color = "grey"
 body_color = (15, 10, 10)
-header_color = (0,0,0)
-font_title = ImageFont.truetype("fonts/Montserrat-Bold.ttf", 70)
-font_subtitle = ImageFont.truetype("fonts/OpenSans-SemiBold.ttf", 35)
-font_body = ImageFont.truetype("fonts/OpenSans-SemiBold.ttf", 30)
-font_header = ImageFont.truetype("fonts/OpenSans-SemiBold.ttf", 30)
+header_color = (0, 0, 0)
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+font_title = ImageFont.truetype(f"{base_dir}/fonts/Montserrat-Bold.ttf", 70)
+font_subtitle = ImageFont.truetype(f"{base_dir}/fonts/OpenSans-SemiBold.ttf", 35)
+font_body = ImageFont.truetype(f"{base_dir}/fonts/OpenSans-SemiBold.ttf", 30)
+font_header = ImageFont.truetype(f"{base_dir}/fonts/OpenSans-SemiBold.ttf", 30)
 city_name = "Dresden"
 
 # Create blank white image
@@ -47,7 +50,7 @@ def choose_weather(precipitation, cloud, hour, sunrise, sunset):
     return weather
 
 
-def assemble_image(hourly_df, daily_df):
+def assemble_image(hourly_df, daily_df, base_dir):
     # Measure text size to centre it
     bbox_title = draw.textbbox((0,0), city_name, font=font_title)
     x_title = (width - (bbox_title[2] - bbox_title[0])) / 2
@@ -85,7 +88,7 @@ def assemble_image(hourly_df, daily_df):
         write_line_element(hour_text, 50, y_line)
 
         weather = choose_weather(precipitation, cloud, hour, sunrise, sunset)
-        icon_path = f"images/png/{weather}.png"
+        icon_path = f"{base_dir}/images/png/{weather}.png"
         icon = Image.open(icon_path).convert("RGBA")
         icon_size = 60
         icon.thumbnail((icon_size, icon_size))

@@ -1,6 +1,7 @@
 from extract_weather_info import extract_weather
 from create_image import assemble_image
 from send_email import send_email
+import os
 
 dresden_coordinates = [(51.0509, 13.7383)]
 rome_coordinates = [(41.8919, 12.5113)]
@@ -28,9 +29,11 @@ message = (f"Dear Derya, \n"
            f"Love you! \n"
            f"Tommaso")
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
 for lat, lon in coordinates:
     hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params)
-    assemble_image(hourly_df, daily_df)
+    assemble_image(hourly_df, daily_df, base_dir)
     send_email(sender_email, sender_password, receiver_email, subject=subject, message=message, str_path="weather_info.jpg")
 
 
