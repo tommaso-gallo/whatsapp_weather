@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 45, in <module>
+    assemble_image(hourly_df, daily_df, city_name, timezone)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/create_image.py", line 113, in assemble_image
+    img.save(f"images/{city_name}.jpg")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/PIL/Image.py", line 2583, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'images/Milan.jpg'
