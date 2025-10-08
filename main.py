@@ -9,7 +9,7 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # --- Configuration ---
 sender_email = "tommasogallo2016@gmail.com"
-with open("password.txt", "r") as f:
+with open(f"{base_dir}/password.txt", "r") as f:
     sender_password = str(f.readline())
 
 hourly_params = ["temperature_2m", "precipitation", "cloud_cover", "precipitation_probability"]
