@@ -1,0 +1,12 @@
+{
+    "status": "active",
+    "city name": "Oxford",
+    "coordinates": {
+        "latitude": 51.752,
+        "longitude": -1.2577
+    },
+    "subject": "Weather report, again",
+    "email": "tommaso.gallo@wadham.ox.ac.uk",
+    "text": "Dear Tommaso,",
+    "time": "08:00"
+}

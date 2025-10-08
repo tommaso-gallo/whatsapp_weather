@@ -1,5 +1,6 @@
 {
     "status": "active",
+    "city name": "Oxford",
     "coordinates": {
         "latitude": 51.752,
         "longitude": -1.2577
@@ -7,5 +8,5 @@
     "subject": "Weather report",
     "email": "tommasogallo2023@gmail.com",
     "text": "Dear Tommaso, \n hopefully this is working",
-    "time": "08:00"
+    "time": "16:10"
 }

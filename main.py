@@ -1,24 +1,21 @@
 from extract_weather_info import extract_weather
 from create_image import assemble_image
 from send_email import send_email
+from schedulers_handler import load_active_schedulers, get_imminent_schedulers
+from check_imminent_jobs import CHECK_INTERVAL_MINUTES
 import os
 
-dresden_coordinates = [(51.0509, 13.7383)]
-rome_coordinates = [(41.8919, 12.5113)]
-la_coordinates = [(34.0522, -118.2437)]
-munich_coordinates = [(48.1374, 11.5755)]
-kyoto_coordinates = [(35.0116, 135.7681)]
-cleveland_coordinates = [(41.4993, -81.6944)]
-louisville_coordinates = [(38.2469, -85.7664)]
-coordinates = dresden_coordinates
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # --- Configuration ---
 sender_email = "tommasogallo2016@gmail.com"
 with open("password.txt", "r") as f:
     sender_password = str(f.readline())
+
 hourly_params = ["temperature_2m", "precipitation", "cloud_cover", "precipitation_probability"]
 daily_params = ["sunrise", "sunset"]
 
+images_path = base_dir + f"/images"
 
 """
 receiver_email = "tommasogallo2023@gmail.com"
@@ -31,15 +28,34 @@ message = (f"Dear Derya, \n"
            f"Love you! \n"
            f"Tommaso")
 """
+if __name__ == "__main__":
+    schedulers = load_active_schedulers(base_dir + "/email_profiles")
+    imminent_schedulers = get_imminent_schedulers(schedulers, CHECK_INTERVAL_MINUTES)
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
+    city_names = []
+    for scheduler in imminent_schedulers:
+        city_name = scheduler["city name"]
+        if city_name not in city_names:
+            city_names.append(city_name)
+            coordinates = scheduler["coordinates"]
+            lat = coordinates["latitude"]
+            lon = coordinates["longitude"]
+            hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params)
+            assemble_image(hourly_df, daily_df, city_name)
 
-for lat, lon in coordinates:
-    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params)
-    assemble_image(hourly_df, daily_df, base_dir)
-    send_email(sender_email, sender_password, receiver_email, subject=subject, message=message, str_path="weather_info.jpg")
+    for scheduler in imminent_schedulers:
+        coordinates = scheduler["coordinates"]
+        city_name = scheduler["city name"]
+        email_subject = scheduler["subject"]
+        receiver_email = scheduler["email"]
+        email_message = scheduler["text"]
+        send_email(sender_email, sender_password, receiver_email, subject=email_subject, message=email_message,
+                   str_path=images_path + f"/{city_name}.jpg")
 
-
+    for filename in os.listdir(images_path):
+        file_path = os.path.join(images_path, filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
 
 """
 things to improve:
