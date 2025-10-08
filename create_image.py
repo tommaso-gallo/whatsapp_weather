@@ -110,4 +110,4 @@ def assemble_image(hourly_df, daily_df, city_name, timezone):
         write_line_element(pp_text, 650, y_line, draw)
 
     # Save
-    img.save(f"images/{city_name}.jpg")
+    img.save(f"{base_dir}/images/{city_name}.jpg")
