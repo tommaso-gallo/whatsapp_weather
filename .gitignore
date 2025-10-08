@@ -4,3 +4,4 @@ __pycache__/
 .cache/ 
 .cache.sqlite
 prova.py
+password.txt

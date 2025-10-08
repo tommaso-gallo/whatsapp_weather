@@ -14,12 +14,14 @@ coordinates = dresden_coordinates
 
 # --- Configuration ---
 sender_email = "tommasogallo2016@gmail.com"
-sender_password = "mysh swro gcfm lypl"
-receiver_email = "tommasogallo2023@gmail.com"
-
+with open("password.txt", "r") as f:
+    sender_password = str(f.readline())
 hourly_params = ["temperature_2m", "precipitation", "cloud_cover", "precipitation_probability"]
 daily_params = ["sunrise", "sunset"]
 
+
+"""
+receiver_email = "tommasogallo2023@gmail.com"
 subject = "The surprise: morning weather reports"
 message = (f"Dear Derya, \n"
            f"Good morning my aşkım. This is the surprise I have been working on.\n"
@@ -28,6 +30,7 @@ message = (f"Dear Derya, \n"
            
            f"Love you! \n"
            f"Tommaso")
+"""
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 

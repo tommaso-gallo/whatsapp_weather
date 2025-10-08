@@ -88,7 +88,7 @@ def assemble_image(hourly_df, daily_df, base_dir):
         write_line_element(hour_text, 50, y_line)
 
         weather = choose_weather(precipitation, cloud, hour, sunrise, sunset)
-        icon_path = f"{base_dir}/images/png/{weather}.png"
+        icon_path = f"{base_dir}/icons/{weather}.png"
         icon = Image.open(icon_path).convert("RGBA")
         icon_size = 60
         icon.thumbnail((icon_size, icon_size))
