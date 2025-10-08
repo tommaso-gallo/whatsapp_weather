@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 import os
+from zoneinfo import ZoneInfo
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -45,7 +46,7 @@ def choose_weather(precipitation, cloud, hour, sunrise, sunset):
     return weather
 
 
-def assemble_image(hourly_df, daily_df, city_name):
+def assemble_image(hourly_df, daily_df, city_name, timezone):
     # Create blank white image
     img = Image.new("RGB", (width, height), color=background_color)
 
@@ -70,11 +71,17 @@ def assemble_image(hourly_df, daily_df, city_name):
     draw.text((412, 220), "Temperature", fill=header_color, font=font_header)
     draw.text((625, 220), "Rain probability", fill=header_color, font=font_header)
 
+    tz = ZoneInfo(timezone)
     sunrise_ts = daily_df["sunrise"][0]
     sunset_ts = daily_df["sunset"][0]
 
-    sunrise = datetime.fromtimestamp(sunrise_ts).hour + datetime.fromtimestamp(sunrise_ts).minute / 60
-    sunset = datetime.fromtimestamp(sunset_ts).hour + datetime.fromtimestamp(sunset_ts).minute / 60
+    # Convert to timezone-aware datetimes
+    sunrise_dt = datetime.fromtimestamp(sunrise_ts, tz=ZoneInfo("UTC")).astimezone(tz)
+    sunset_dt = datetime.fromtimestamp(sunset_ts, tz=ZoneInfo("UTC")).astimezone(tz)
+
+    # Convert to float hours (e.g., 6.5 for 06:30)
+    sunrise = sunrise_dt.hour + sunrise_dt.minute / 60
+    sunset = sunset_dt.hour + sunset_dt.minute / 60
 
     for i, row in hourly_df.iterrows():
         temperature = row["temperature_2m"]

@@ -40,8 +40,9 @@ if __name__ == "__main__":
             coordinates = scheduler["coordinates"]
             lat = coordinates["latitude"]
             lon = coordinates["longitude"]
-            hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params)
-            assemble_image(hourly_df, daily_df, city_name)
+            timezone = scheduler.get("timezone", "UTC")
+            hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+            assemble_image(hourly_df, daily_df, city_name, timezone)
 
     for scheduler in imminent_schedulers:
         coordinates = scheduler["coordinates"]
@@ -59,9 +60,7 @@ if __name__ == "__main__":
 
 """
 things to improve:
-- correct the time shift of the precipitation prediction 
 - better graphics for the image
 - change the rain icons: using single raindrops
-- improve the timestamp robustness
-- add a user specification
+- automatic updates: automatically check 
 """

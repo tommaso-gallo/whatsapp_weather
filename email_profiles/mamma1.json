@@ -1,0 +1,14 @@
+{
+    "scheduler name": "mamma1",
+    "status": "active",
+    "city name": "Milan",
+    "coordinates": {
+        "latitude": 45.4685,
+        "longitude": 9.1824
+    },
+    "subject": "Report meteo giornaliero per Milano",
+    "email": "ap2.klanp@gmail.com",
+    "text": "Cara mamma, \necco qua il tuo report del meteo di oggi a Milano. \n\nTi voglio bene, \nTommaso",
+    "time": "11:00",
+    "timezone": "Europe/Rome"
+}
