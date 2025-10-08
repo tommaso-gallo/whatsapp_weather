@@ -8,3 +8,4 @@ Traceback (most recent call last):
   File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/PIL/Image.py", line 2583, in save
     fp = builtins.open(filename, "w+b")
 FileNotFoundError: [Errno 2] No such file or directory: 'images/Milan.jpg'
+✅ Email sent from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
