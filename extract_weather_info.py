@@ -24,8 +24,8 @@ def extract_weather(lat, lon, hourly_params, daily_params, timezone):
         "hourly": hourly_params,
         "daily": daily_params,
         "timezone": "auto",
-        "past_hours": 1,
-        "forecast_hours": 16+1,
+        "past_hours": 0,
+        "forecast_hours": 17+1,
         "forecast_days": 1
     }
 

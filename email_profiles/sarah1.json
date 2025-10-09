@@ -1,0 +1,14 @@
+{
+    "scheduler name": "sarah1",
+    "status": "active",
+    "city name": "Oxford",
+    "coordinates": {
+        "latitude": 51.752,
+        "longitude": -1.2577
+    },
+    "subject": "Urgent! I need your opinion on this",
+    "email": "sarahhbarden@gmail.com",
+    "text": "Fuck you, \nSincerely (and truly),\nTommaso",
+    "time": "23:30",
+    "timezone": "Europe/London"
+}
