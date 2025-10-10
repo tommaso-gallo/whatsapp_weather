@@ -61,27 +61,32 @@ def connect_device(mac):
 def get_bluetooth_devices():
     """Returns two lists: paired_devices, connected_devices"""
     try:
-        result = subprocess.run(
-            ["bluetoothctl", "paired-devices"],
+        result_connected = subprocess.run(
+            ["bluetoothctl", "devices", "Connected"],
             capture_output=True, text=True, check=True
         )
-        paired = []
-        for line in result.stdout.splitlines():
+
+        connected = []
+        for line in result_connected.stdout.splitlines():
             if line.startswith("Device"):
                 parts = line.split(" ", 2)
                 if len(parts) >= 3:
                     mac, name = parts[1], parts[2]
-                    paired.append((mac, name))
+                    connected.append((mac, name))
 
-        # Now check which ones are connected
-        connected = []
-        for mac, name in paired:
-            info = subprocess.run(
-                ["bluetoothctl", "info", mac],
-                capture_output=True, text=True
-            )
-            if "Connected: yes" in info.stdout:
-                connected.append((mac, name))
+        result_paired = subprocess.run(
+            ["bluetoothctl", "devices", "Paired"],
+            capture_output=True, text=True, check=True
+        )
+
+        paired = []
+        for line in result_paired.stdout.splitlines():
+            if line.startswith("Device"):
+                parts = line.split(" ", 2)
+                if len(parts) >= 3:
+                    mac, name = parts[1], parts[2]
+                    if (mac, name) not in connected:
+                        paired.append((mac, name))
 
         return paired, connected
 
@@ -93,14 +98,14 @@ def get_bluetooth_devices():
 def print_bluetooth_status():
     paired, connected = get_bluetooth_devices()
 
-    print("\n🟦 Paired Devices:")
+    print("\nPaired Devices:")
     if paired:
         for i, (mac, name) in enumerate(paired, 1):
             print(f"  {i}. {name} ({mac})")
     else:
         print("  None")
 
-    print("\n🟩 Connected Devices:")
+    print("\nConnected Devices:")
     if connected:
         for i, (mac, name) in enumerate(connected, 1):
             print(f"  {i}. {name} ({mac}) ✅")
