@@ -9,3 +9,9 @@ Traceback (most recent call last):
     fp = builtins.open(filename, "w+b")
 FileNotFoundError: [Errno 2] No such file or directory: 'images/Milan.jpg'
 ✅ Email sent from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+✅ Email sent from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
