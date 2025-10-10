@@ -3,7 +3,7 @@ import subprocess
 import requests
 
 # Raw URL of the JSON file on GitHub
-AUTOPULL_URL = "https://raw.githubusercontent.com/tommaso-gallo/whatsapp_weather/main/autopull.json"
+AUTOPULL_URL = "https://raw.githubusercontent.com/tommaso-gallo/whatsapp_weather/refs/heads/main/autopull.json"
 REPO_DIR = "/home/pi/whatsapp_weather"  # path to your repo on Pi
 
 def check_online_autopull():
