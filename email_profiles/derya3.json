@@ -1,0 +1,14 @@
+{
+    "scheduler name": "derya3",
+    "status": "active",
+    "city name": "Berlin",
+    "coordinates": {
+        "latitude": 52.52,
+        "longitude": 13.405
+    },
+    "subject": "Your weather forecast for the Berlin trip!!",
+    "email": "deryaoz20020@gmail.com",
+    "text": "Dear Askim,...",
+    "time": "08:30",
+    "timezone": "Europe/Berlin"
+}
