@@ -39,12 +39,13 @@ def extract_weather(lat, lon, hourly_params, daily_params, timezone):
     hourly_end_utc = pd.to_datetime(hourly.TimeEnd(), unit="s", utc=True)
     hourly_data = {
         "date": pd.date_range(
-            start=hourly_start_utc.tz_convert(timezone),
-            end=hourly_end_utc.tz_convert(timezone),
+            start=hourly_start_utc.tz_convert(None).tz_localize(timezone, ambiguous="NaT", nonexistent="shift_forward"),
+            end=hourly_end_utc.tz_convert(None).tz_localize(timezone, ambiguous="NaT", nonexistent="shift_forward"),
             freq=pd.Timedelta(seconds=hourly.Interval()),
             inclusive="left"
         )
     }
+
     for i, var_name in enumerate(hourly_params):
         hourly_data[var_name] = hourly.Variables(i).ValuesAsNumpy()
 
@@ -59,8 +60,8 @@ def extract_weather(lat, lon, hourly_params, daily_params, timezone):
     daily_end_utc = pd.to_datetime(daily.TimeEnd(), unit="s", utc=True)
     daily_data = {
         "date": pd.date_range(
-            start=daily_start_utc.tz_convert(timezone),
-            end=daily_end_utc.tz_convert(timezone),
+            start=daily_start_utc.tz_convert(None).tz_localize(timezone, ambiguous="NaT", nonexistent="shift_forward"),
+            end=daily_end_utc.tz_convert(None).tz_localize(timezone, ambiguous="NaT", nonexistent="shift_forward"),
             freq=pd.Timedelta(seconds=daily.Interval()),
             inclusive="left"
         )
