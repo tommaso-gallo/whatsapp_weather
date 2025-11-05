@@ -18,11 +18,11 @@ else:
     raise Exception(f"Unsupported OS: {system}")
 
 
-def main():
+def run_main(PYTHON_PATH, MAIN_SCRIPT):
     schedulers = load_active_schedulers(base_dir + "/email_profiles")
     if len(get_imminent_schedulers(schedulers, CHECK_INTERVAL_MINUTES)) > 0:
         subprocess.run([PYTHON_PATH, MAIN_SCRIPT])
 
 
 if __name__ == "__main__":
-    main()
+    main(PYTHON_PATH, MAIN_SCRIPT)

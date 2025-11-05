@@ -1,4 +1,4 @@
-from check_imminent_jobs import PYTHON_PATH, base_dir
+from check_imminent_jobs import PYTHON_PATH, MAIN_SCRIPT, run_main
 from datetime import datetime, timedelta
 import os
 import json
@@ -43,8 +43,8 @@ if __name__ == "__main__":
 
     input(f"\nTrial email profile saved as {file_path}")
 
-    cim_path = f"{base_dir}/check_imminent_jobs.py"
-    subprocess.run([PYTHON_PATH, cim_path])
+    run_main(PYTHON_PATH, MAIN_SCRIPT)
+
     print("The email should have now be sent")
     os.remove(file_path)
     print("The email profile has been removed")
