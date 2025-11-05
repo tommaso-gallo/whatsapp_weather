@@ -29,9 +29,7 @@ message = (f"Dear Derya, \n"
            f"Tommaso")
 """
 
-print("1) is thisss running?")
 if __name__ == "__main__":
-    print("This should not be running")
     schedulers = load_active_schedulers(base_dir + "/email_profiles")
     imminent_schedulers = get_imminent_schedulers(schedulers, CHECK_INTERVAL_MINUTES)
 

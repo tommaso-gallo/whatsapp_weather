@@ -2,13 +2,15 @@ from check_imminent_jobs import PYTHON_PATH, MAIN_SCRIPT, run_main
 from datetime import datetime, timedelta
 import os
 import json
-import subprocess
+import time
+from zoneinfo import ZoneInfo
 
 if __name__ == "__main__":
-    now = datetime.now()
+    now = datetime.now(ZoneInfo("Europe/London"))
     future_time = now + timedelta(minutes=5)
-    time = future_time.strftime("%H:%M")
+    time_str = future_time.strftime("%H:%M")
 
+    timezone = "Europe/London"
     file_name = "trial"
     status = "active"
     city_name = "London"
@@ -18,7 +20,6 @@ if __name__ == "__main__":
     email = "tommasogallo2023@gmail.com"
     text = "This is a trial email sent automatically"
 
-    timezone = str(input("Enter the timezone (e.g. Europe/Rome, America/New_York): "))
     # Assemble the dictionary
     profile = {
         "scheduler name": file_name,
@@ -31,7 +32,7 @@ if __name__ == "__main__":
         "subject": subject,
         "email": email,
         "text": text,
-        "time": time,
+        "time": time_str,
         "timezone": timezone
     }
 
@@ -41,10 +42,11 @@ if __name__ == "__main__":
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(profile, f, indent=4)
 
-    input(f"\nTrial email profile saved as {file_path}")
+    print(f"\nTrial email profile saved as {file_path}")
 
     run_main(PYTHON_PATH, MAIN_SCRIPT)
 
     print("The email should have now be sent")
+    time.sleep(10)
     os.remove(file_path)
     print("The email profile has been removed")

@@ -28,5 +28,5 @@ def send_email(sender_email: str, sender_password: str, receiver_email: str, sub
         smtp.login(sender_email, sender_password)
         smtp.send_message(msg)
 
-    print(f" Email sen on the {datetime.now().strftime('%d/%m/%y at %H:%M')} from {sender_email} to {receiver_email}!")
+    print(f" Email sent on the {datetime.now().strftime('%d/%m/%y at %H:%M')} from {sender_email} to {receiver_email}!")
 
