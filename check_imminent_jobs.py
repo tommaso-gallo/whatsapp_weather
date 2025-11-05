@@ -25,4 +25,4 @@ def run_main(PYTHON_PATH, MAIN_SCRIPT):
 
 
 if __name__ == "__main__":
-    main(PYTHON_PATH, MAIN_SCRIPT)
+    run_main(PYTHON_PATH, MAIN_SCRIPT)
