@@ -201,3 +201,1585 @@ Traceback (most recent call last):
   File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/PIL/Image.py", line 2583, in save
     fp = builtins.open(filename, "w+b")
 FileNotFoundError: [Errno 2] No such file or directory: '/home/pi/whatsapp_weather/images/Oxford.jpg'
+ Email sen on the 27/10/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 27/10/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 27/10/25 at 09:11 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 27/10/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 27/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 27/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 28/10/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 28/10/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 28/10/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 28/10/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 28/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 28/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 29/10/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 29/10/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 29/10/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 29/10/25 at 10:41 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 29/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 29/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 30/10/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 30/10/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 30/10/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 30/10/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 30/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 30/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 31/10/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 31/10/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 31/10/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 31/10/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 31/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 31/10/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 01/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 01/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 01/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 01/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 01/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 01/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 02/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sen on the 02/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sen on the 02/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sen on the 02/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sen on the 02/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sen on the 02/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f88ec2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f88ec2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f88ec2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f88ec2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f8ea46710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8ea46710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8ea46710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8ea46710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f9e366710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9e366710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9e366710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9e366710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f9fcd6710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9fcd6710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9fcd6710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9fcd6710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f8b816710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8b816710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8b816710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8b816710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fa0226710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa0226710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa0226710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.0504&longitude=13.7373&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa0226710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f9ad66710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9ad66710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9ad66710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f9ad66710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f78f2a710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f78f2a710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f78f2a710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f78f2a710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fa65d2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa65d2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa65d2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=51.752&longitude=-1.2577&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa65d2710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 225, in _new_conn
+    sock = self._resolver.create_connection(
+        (self._dns_host, self.port or self.default_port),
+    ...<8 lines>...
+        default_socket_family=self._socket_family,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 218, in create_connection
+    records = self.getaddrinfo(
+        host,
+    ...<3 lines>...
+        quic_upgrade_via_dns_rr=quic_upgrade_via_dns_rr,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/contrib/resolver/protocols.py", line 458, in getaddrinfo
+    raise socket.gaierror(
+        f"Name or service not known: {host} using {self._size - len(self._constrained)} resolver(s)"
+    )
+socket.gaierror: Name or service not known: api.open-meteo.com using 1 resolver(s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1713, in urlopen
+    response = self._make_request(  # type: ignore[call-overload,misc]
+        conn,
+    ...<15 lines>...
+        extension=extension,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1257, in _make_request
+    raise new_e
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1233, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 2296, in _validate_conn
+    super()._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 788, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 776, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connection.py", line 238, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f73806710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1844, in urlopen
+    return self.urlopen(  # type: ignore[no-any-return,call-overload,misc]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        method,
+        ^^^^^^^
+    ...<17 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1791, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 544, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73806710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 88, in weather_api
+    return self._request(
+           ~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 68, in _request
+    response = self._session.get(url, params=params, verify=verify, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 127, in get
+    return self.request('GET', url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73806710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 44, in <module>
+    hourly_df, daily_df = extract_weather(lat, lon, hourly_params, daily_params, timezone)
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/extract_weather_info.py", line 33, in extract_weather
+    responses = openmeteo.weather_api(url, params=params)
+  File "/home/pi/whatsapp_weather/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 97, in weather_api
+    raise OpenMeteoRequestsError(msg) from e
+openmeteo_requests.Client.OpenMeteoRequestsError: failed to request 'https://api.open-meteo.com/v1/forecast': HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=45.4685&longitude=9.1824&hourly=temperature_2m&hourly=precipitation&hourly=cloud_cover&hourly=precipitation_probability&daily=sunrise&daily=sunset&timezone=auto&past_hours=0&forecast_hours=18&forecast_days=1&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73806710>: Failed to resolve 'api.open-meteo.com' (Name or service not known: api.open-meteo.com using 1 resolver(s))"))
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/check_imminent_jobs.py", line 28, in <module>
+    main(PYTHON_PATH, MAIN_SCRIPT)
+    ^^^^
+NameError: name 'main' is not defined. Did you mean: 'min'?
+Is this running?
+ Email sent on the 05/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 05/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 05/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 05/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 05/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 05/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 06/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 06/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 06/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 06/11/25 at 10:41 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 06/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 06/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 07/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 07/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 07/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 07/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 07/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 07/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 08/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 08/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 08/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 08/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 08/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 08/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 09/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 09/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 09/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 09/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 09/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 09/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 10/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 10/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 10/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 10/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 10/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 10/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 11/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 11/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 11/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 11/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 11/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 11/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 12/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 12/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 12/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 12/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 12/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 12/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 13/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 13/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 13/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 13/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 13/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 13/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 14/11/25 at 06:55 from tommasogallo2016@gmail.com to ozderya20020@gmail.com!
+ Email sent on the 14/11/25 at 07:55 from tommasogallo2016@gmail.com to claudiogallo2011@gmail.com!
+ Email sent on the 14/11/25 at 08:55 from tommasogallo2016@gmail.com to tommasogallo2023@gmail.com!
+ Email sent on the 14/11/25 at 10:25 from tommasogallo2016@gmail.com to sarahhbarden@gmail.com!
+ Email sent on the 14/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+ Email sent on the 14/11/25 at 10:55 from tommasogallo2016@gmail.com to ap2.klanp@gmail.com!
+Traceback (most recent call last):
+  File "/home/pi/whatsapp_weather/main.py", line 54, in <module>
+    send_email(sender_email, sender_password, receiver_email, subject=email_subject, message=email_message,
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               str_path=images_path + f"/{city_name}.jpg")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/whatsapp_weather/send_email.py", line 27, in send_email
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 1022, in __init__
+    SMTP.__init__(self, host, port, local_hostname, timeout,
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  source_address)
+                  ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/smtplib.py", line 1028, in _get_socket
+    new_socket = super()._get_socket(host, port, timeout)
+  File "/usr/lib/python3.13/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
